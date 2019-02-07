@@ -12,7 +12,11 @@ public class TextMsgExpander {
         System.out.println("");
 
         // Check for abbreviations
-       
+        userLine = userLine.replace("BFF", "best friend forever");
+        userLine = userLine.replace("IDK", "I don't know");
+        userLine = userLine.replace("JK", "just kidding");
+        userLine = userLine.replace("TMI", "too much information");
+        userLine = userLine.replace("TTYL", "talk to you later");
 
         // Output expanded text
         System.out.println("");
